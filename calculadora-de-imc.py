@@ -8,3 +8,10 @@ peso = int(peso)
 
 #divisão de valores
 IMC = peso/altura
+
+#dados de comparação 
+Abaixo_do_peso = 18,5
+acima_Peso_normal = 18,5
+Sobrepeso = 25
+obesidade1 = 30
+obesidade2e3 = 40
