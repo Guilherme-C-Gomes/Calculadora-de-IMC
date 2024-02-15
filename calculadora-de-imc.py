@@ -11,7 +11,15 @@ IMC = peso/altura
 
 #dados de comparação 
 Abaixo_do_peso = 18,5
-acima_Peso_normal = 18,5
-Sobrepeso = 25
-obesidade1 = 30
+acima_Peso_normal = 24,9
+Sobrepeso = 29,9
+obesidade1 = 34,9
 obesidade2e3 = 40
+
+#resultado do IMC
+print("Seu IMC é:"+IMC)
+if Abaixo_do_peso < IMC:
+    print("Abaixo do peso")
+elif Abaixo_do_peso < IMC > acima_Peso_normal:
+    print("Peso normal")
+elif acima_Peso_normal< 
